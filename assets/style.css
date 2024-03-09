@@ -1,42 +1,56 @@
-* {
-    background-color: pink;
-}
+
 
 body {
-    background-color: hotpink;
-}
-
-a {
-    color: black;
-}
-
-p {
-    color: black;
-    font-size: 16px;
+    background-color: pink;
 }
 
 header {
     background-color: white;
-    color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-h1 {
-    background-color: white;
-    color: grey;
-}
-
-.mack {
-    background-color: white;
-    color: rgb(94, 90, 90);
-}
-
-header nav {
-    
+header h1 {
+    background-color: ;
+    color: rgb(168, 164, 164);
 }
 
 header li {
     position: relative;
-    left: 800px;
+    left: 600px;
+    display: inline-block;
+    padding: 20px;
+    
+}
 
+.mack {
+    background-color: ;
+    color: rgb(75, 73, 73);
+}  
+
+.main {
+    background-color: white;
+    margin-left: 50px;
+    display: inline-block;
+    width: 20%;
+   
+}
+
+.main-topics {
+    padding: 70px;
+}
+
+aside {
+    display: inline-block;
+    padding: 80px;
+    width: 60%;
+}
+
+aside div {
+    padding: 50px;
+}
+
+aside p {
+    font-size: 18px;
 }
