@@ -28,21 +28,3 @@ header li {
     background-color: ;
     color: rgb(75, 73, 73);
 } 
-
-aside {
-    background-color: white;
-    margin-left: 50px;
-    width: 20%;
-    display: inline-block;
-}
-
-.aside-topics {
-    padding: 80px;
-}
-
-.main {
-    background-color: white;
-    width: 70%;
-    display: inline-block;
-}
-
