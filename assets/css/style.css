@@ -1,4 +1,8 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body {
     background-color: pink;
@@ -28,7 +32,6 @@ header li {
 }
 
 .mack {
-    background-color: ;
     color: rgb(75, 73, 73);
 } 
 
@@ -37,17 +40,17 @@ p {
     width: 50%;
 }
 
-.img-mack {
-    display: inline-block;
-    position: relative;
-    left: 800px;
- }
-
 section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-   
+    flex-direction: column; 
+    margin: 70px;
+    border: solid white;
+}
+
+section p {
+    margin-left: 200px;
+    width: 80%;
+    padding: 30px;
 }
 
 .sections {
@@ -56,9 +59,20 @@ section {
 }
 
 .topics {
-    padding: 50px;
-    margin: 20px;
+    padding: 30px;
     font-size: 30px;
     text-align: left;
 }
+
+.about-me {
+    width: 50%;
+    height: 40%;
+    float: left;
+}
+
+.img-mack {
+    width: 400px;
+    height: auto;
+    float: right;
+ }
 
