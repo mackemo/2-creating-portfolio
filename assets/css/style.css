@@ -76,13 +76,13 @@ section p {
     float: right;
  }
 
- .work-topics {
+.work-topics {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
  }
 
- .img-prework {
+.img-prework {
     width: 350px;
     height: auto;
  }
@@ -90,6 +90,14 @@ section p {
 .img-challenge {
     width: 200px;
     height: auto; 
+}
+
+#contact p {
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(185, 120, 120);
+    width: 40%;
 }
 
 footer {
