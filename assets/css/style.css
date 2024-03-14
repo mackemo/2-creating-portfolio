@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --darkpink: rgb(199, 128, 128);
+    --roundcorner: 10px;
+}
+
 body {
     background-color: pink;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,7 +24,7 @@ header {
 
 header h1 {
     background-color: ;
-    color: rgb(168, 164, 164);
+    color: rgb(161, 161, 161);
     font-size: 40px;
 }
 
@@ -45,6 +50,8 @@ section {
     flex-direction: column; 
     margin: 70px;
     border: solid white;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: var(--roundcorner);
 }
 
 section p {
@@ -64,10 +71,13 @@ section p {
     text-align: left;
 }
 
-.about-me {
+#about-me p {
     width: 50%;
     height: 40%;
     float: left;
+    background-color: var(--darkpink);
+    border-radius: var(--roundcorner);
+    line-height: 1.2;
 }
 
 .img-mack {
@@ -95,13 +105,15 @@ section p {
 #contact p {
     font-style: italic;
     font-size: 18px;
+    line-height: 1.6;
+    border-radius: var(--roundcorner);
     color: white;
-    background-color: rgb(185, 120, 120);
+    background-color:  var(--darkpink);
     width: 40%;
 }
 
 #resume p {
-    color: rgb(185, 120, 120);
+    color:  var(--darkpink);
     font-size: 22px;
 }
 
