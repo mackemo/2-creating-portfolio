@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(236, 215, 219);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -40,6 +40,10 @@ header li {
     color: rgb(75, 73, 73);
 } 
 
+a:hover {
+    background-color: rgb(236, 215, 219);
+}
+
 p {
     font-size: 18px;
     width: 50%;
@@ -52,6 +56,7 @@ section {
     border: solid white;
     box-shadow: 0 0 10px 5px white;
     border-radius: var(--roundcorner);
+    background-color: pink;
 }
 
 section p {
@@ -69,6 +74,7 @@ section p {
     padding: 30px;
     font-size: 30px;
     text-align: left;
+    color: rgb(73, 73, 73);
 }
 
 #about-me p {
@@ -90,6 +96,8 @@ section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-decoration: underline;
+    transform: skew(-8deg);
  }
 
 .img-prework {
