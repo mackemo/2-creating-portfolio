@@ -76,3 +76,23 @@ section p {
     float: right;
  }
 
+ .work-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .img-prework {
+    width: 350px;
+    height: auto;
+ }
+
+.img-challenge {
+    width: 200px;
+    height: auto; 
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
