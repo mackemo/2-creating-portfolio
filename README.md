@@ -1,4 +1,4 @@
-# challenge-2
+# 2-creating-portfolio
 
 ## Description
 
