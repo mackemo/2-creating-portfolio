@@ -4,9 +4,10 @@
 
 The second challenge assignment from a bootcamp where the task was to create a web application from scratch. The web application created is my portfolio.
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+<img src="./assets/images/image.png"/>
+<img src="./assets/images/image-1.png"/>
+<img src="./assets/images/image-2.png"/>
+
 
 ## Process
 
