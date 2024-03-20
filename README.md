@@ -16,10 +16,10 @@ The process included adding four sections of content, an 'About Me', 'My Work', 
 ## Links
 
 Link to website used for this challenge.
-https://mackemo.github.io/challenge-2/
+https://mackemo.github.io/2-creating-portfolio/
 
 Link to public Github repository for this challenge.
-https://github.com/mackemo/challenge-2
+https://github.com/mackemo/2-creating-portfolio
 
 ## Installation
 
