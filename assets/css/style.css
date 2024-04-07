@@ -32,7 +32,6 @@ header h1 {
 header li {
     display: inline-block;
     padding: 20px;
-    
 }
 
 /*color specified for part of name in header*/
@@ -53,13 +52,13 @@ section {
     border-radius: var(--roundcorner);
     background-color: pink;
     margin-left: 100px;
+    
 }
 
 #about-me > div {
     display: flex;
     flex-wrap: wrap;
     margin: 70px;
-    margin-left: 100px;
 }
 
 section p {
@@ -112,7 +111,7 @@ section p {
     border-radius: var(--roundcorner);
     color: white;
     background-color:  var(--darkpink);
-    width: 40%;
+    width: 100%;
 }
 
 #resume p {
