@@ -5,7 +5,7 @@
 }
 
 :root {
-    --darkpink: rgb(199, 128, 128);
+    --backcolor: rgb(152, 152, 175);
     --roundcorner: 10px;
 }
 
@@ -46,7 +46,6 @@ section {
     border: solid white;
     box-shadow: 0 0 10px 5px white;
     border-radius: var(--roundcorner);
-    background-color: pink;
     margin-left: 100px;
 }
 
@@ -64,16 +63,17 @@ section p {
     padding: 30px;
     font-size: 30px;
     text-align: left;
-    color: rgb(73, 73, 73);
+    color: rgb(124, 95, 102);
 }
 
 #about-me p {
     display: flex;
     align-items: center;
-    background-color: var(--darkpink);
+    background-color: var(--backcolor);
     border-radius: var(--roundcorner);
     line-height: 1.2;
     flex: 1 0 0;
+    font-size: 18px;
 }
 
 .img-mack {
@@ -103,18 +103,18 @@ section p {
     line-height: 1.6;
     border-radius: var(--roundcorner);
     color: white;
-    background-color:  var(--darkpink);
+    background-color:  var(--backcolor);
     width: 100%;
 }
 
 #resume p {
-    color:  var(--darkpink);
+    color:  var(--backcolor);
     font-size: 22px;
 }
 
 footer {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 /* responsive to mobile devices */
