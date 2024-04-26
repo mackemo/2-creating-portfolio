@@ -36,7 +36,6 @@ header li {
     color: rgb(75, 73, 73);
 } 
 
-
 a:hover {
     background-color: rgb(236, 215, 219);
 }
@@ -49,7 +48,6 @@ section {
     border-radius: var(--roundcorner);
     background-color: pink;
     margin-left: 100px;
-    
 }
 
 #about-me > div {
@@ -62,7 +60,6 @@ section p {
     padding: 30px; 
 }
 
-/*Titles for each topic*/
 .topics {
     padding: 30px;
     font-size: 30px;
@@ -71,6 +68,8 @@ section p {
 }
 
 #about-me p {
+    display: flex;
+    align-items: center;
     background-color: var(--darkpink);
     border-radius: var(--roundcorner);
     line-height: 1.2;
@@ -86,10 +85,9 @@ section p {
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: underline;
-    transform: skew(-8deg);
  }
 
-.img-best {
+.img-prework {
     width: 350px;
     height: auto;
  }
@@ -117,4 +115,47 @@ section p {
 footer {
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* responsive to mobile devices */
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    header ul {
+        font-size: 12px;
+        position: relative;
+        left: 20px;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+    #about-me > div {
+        flex-direction: column;
+    }
+
+    #about-me p {
+        margin-bottom: 20px;
+    }
+
+    .img-mack {
+        margin-top: 20px;
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .work-topics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-challenge {
+        margin-bottom: 20px;
+        width: 100%; 
+    }
 }
