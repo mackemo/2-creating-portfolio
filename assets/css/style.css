@@ -4,19 +4,16 @@
     box-sizing: border-box;
 }
 
-/*Variables*/
 :root {
     --darkpink: rgb(199, 128, 128);
     --roundcorner: 10px;
 }
 
-/*main body style*/
 body {
     background-color: rgb(236, 215, 219);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*header*/
 header {
     background-color: white;
     display: flex;
@@ -39,7 +36,7 @@ header li {
     color: rgb(75, 73, 73);
 } 
 
-/*nav bar links*/
+
 a:hover {
     background-color: rgb(236, 215, 219);
 }
@@ -73,7 +70,6 @@ section p {
     color: rgb(73, 73, 73);
 }
 
-/*section about me paragraph*/
 #about-me p {
     background-color: var(--darkpink);
     border-radius: var(--roundcorner);
@@ -85,7 +81,6 @@ section p {
     flex: 1 0 0;
 }
 
- /*the two linked images for my work*/
 .work-topics {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +89,7 @@ section p {
     transform: skew(-8deg);
  }
 
-.img-prework {
+.img-best {
     width: 350px;
     height: auto;
  }
