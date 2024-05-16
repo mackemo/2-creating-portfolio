@@ -5,12 +5,12 @@
 }
 
 :root {
-    --backcolor: rgb(152, 152, 175);
+    --backcolor: rgb(211, 211, 219);
     --roundcorner: 10px;
 }
 
 body {
-    background-color: rgb(236, 215, 219);
+    background-color:rgb(208, 208, 214);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -42,17 +42,20 @@ a:hover {
 
 /*all four sections*/
 section {
-    margin: 70px;
+    margin: 50px;
     border: solid white;
     box-shadow: 0 0 10px 5px white;
     border-radius: var(--roundcorner);
     margin-left: 100px;
+    background-color: rgb(169, 169, 194);
 }
+
 
 #about-me > div {
     display: flex;
     flex-wrap: wrap;
-    margin: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 section p {
@@ -63,7 +66,7 @@ section p {
     padding: 30px;
     font-size: 30px;
     text-align: left;
-    color: rgb(124, 95, 102);
+    color: rgb(255, 255, 255);
 }
 
 #about-me p {
@@ -85,16 +88,54 @@ section p {
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: underline;
- }
+}
 
-.img-prework {
-    width: 350px;
-    height: auto;
- }
+.work {
+    border: solid var(--backcolor);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
 
-.img-challenge {
+.work:hover {
+    opacity: 1.0;
+}
+
+/* images on work topics */
+#prework {
+    background-image: url("../images/prework.png");
+}
+
+#payroll {
+    background-image: url("../images/payroll.png");
+}
+
+#blog {
+    background-image: url("../images/blog.png");
+}
+
+#task {
+    background-image: url("../images/task.png");
+}
+
+#weather {
+    background-image: url("../images/weather.png");
+}
+
+#project {
+    background-image: url("../images/project1.png");
+}
+
+/* all images */
+#prework, #payroll, #blog, #task, #weather, #project {
+    height: 200px;
     width: 200px;
-    height: auto; 
+}
+
+.label {
+    background-color: var(--backcolor);
+    color: black;
+    padding: 10px;
 }
 
 #contact p {
@@ -102,13 +143,13 @@ section p {
     font-size: 18px;
     line-height: 1.6;
     border-radius: var(--roundcorner);
-    color: white;
+    color: rgb(114, 74, 83);
     background-color:  var(--backcolor);
     width: 100%;
 }
 
 #resume p {
-    color:  var(--backcolor);
+    color:  rgb(114, 74, 83);
     font-size: 22px;
 }
 
@@ -119,7 +160,7 @@ footer {
 
 /* responsive to mobile devices */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
     header h1 {
         margin-top: 20px;
         font-size: 25px;
@@ -132,7 +173,7 @@ footer {
     }
 
     section {
-        margin: 20px;
+        margin: 5%;
     }
 
     #about-me > div {
@@ -146,7 +187,6 @@ footer {
     .img-mack {
         margin-top: 20px;
         width: 100%; 
-        margin-top: 20px;
     }
 
     .work-topics {
@@ -157,5 +197,12 @@ footer {
     .img-challenge {
         margin-bottom: 20px;
         width: 100%; 
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #about-me > div {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
