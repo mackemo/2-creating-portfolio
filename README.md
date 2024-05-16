@@ -8,7 +8,6 @@ The second challenge assignment from a bootcamp where the task was to create a w
 <img src="./assets/images/ss2.png"/>
 <img src="./assets/images/ss3.png"/>
 
-
 ## Process
 
 The process included adding four sections of content, an 'About Me', 'My Work', 'Contact', and 'Resume'. Each were linked in the header that included my name. In the 'About Me' section, I added a photo of myself. In the 'My Work' section, two projects are linked into photos with my first project having a larger photo. Various advanced CSS styling tools were used, including but not limited to, variables, flexbox, positions, hover links, box shadow, border-radius, and media queries.
