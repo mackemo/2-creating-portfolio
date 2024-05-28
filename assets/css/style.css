@@ -126,6 +126,18 @@ section p {
     background-image: url("../images/project1.png");
 }
 
+#readme {
+    background-image: url("../images/readme.png");
+}
+
+#svg {
+    background-image: url("../images/svg.png");
+}
+
+#note {
+    background-image: url("../images/note.png");
+}
+
 /* all images */
 #prework, #payroll, #blog, #task, #weather, #project {
     height: 200px;
