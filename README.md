@@ -22,7 +22,7 @@ The second challenge assignment from a bootcamp where the task was to create a w
 
 ## Process
 
-The process included adding four sections of content, an 'About Me', 'My Work', 'Contact', and 'Resume'. Each were linked in the header that included my name. In the 'About Me' section, I added a photo of myself. In the 'My Work' section, two projects are linked into photos with my first project having a larger photo. Various advanced CSS styling tools were used, including but not limited to, variables, flexbox, positions, hover links, box shadow, border-radius, and media queries.
+The process included adding four sections of content, 'About Me', 'My Work', 'Contact', and 'Resume'. Each section is linked in the header of the webpage. The header features the name of the developer as well. The 'About Me' section includes a photo of the developer. The 'My Work' section includes all the projects the developer worked on. When you hover over a topic, the opacity increases ('lighting up the topic'). Various advanced CSS styling tools were used, including but not limited to, variables, flexbox, positions, hover links, box shadow, border-radius, and media queries. The 'Contact' section inclues the develoepr's email, phone number, and address. The 'Resume' section includes links to developer's resume and Github account.
 
 ## Links
 
